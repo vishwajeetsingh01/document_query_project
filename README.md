@@ -1,6 +1,6 @@
-# PDF📖 - Document Query 🤖
+# PDF📖 - Document Query Chat Bot🤖
 
-*The **PDF - Chat Bot** allows users to upload PDF files and interact with the content through a chatbot interface. It leverages natural language processing (NLP) to enable users to ask questions, summarize content, or retrieve specific information from the uploaded PDFs. This app is ideal for anyone who needs to quickly extract insights or explore large PDF documents interactively.*<br>
+*The **PDF - Document Query Chat Bot** allows users to upload PDF files and interact with the content through a chatbot interface. It leverages natural language processing (NLP) to enable users to ask questions, summarize content, or retrieve specific information from the uploaded PDFs. This app is ideal for anyone who needs to quickly extract insights or explore large PDF documents interactively.*<br>
 
 ![alt text](assets/image.png)
 
@@ -13,10 +13,10 @@
 ## Technologies Used<br>
 * **Frontend:** Gradio<br>
 * **Backend:** Python<br>
-* **NLP:** Google API gemini-1.5-flash or similar language models for text-based interaction.<br>
+* **NLP:** Phi-3-mini-4k-instruct-q4.gguf or similar language models for text-based interaction.<br>
 * **Real-time Processing:** Instantaneous interaction with the document content.<br>
-* **PDF Processing:** PyPDF2 and other Python libraries for text extraxtion.<br>
-* **File Storage:** Local or cloud-based storage for PDFs.<br>
+* **PDF Processing:** PyPDFLoader and other Python libraries for text extraxtion.<br>
+* **File Storage:** Chroma storage for PDFs.<br>
 
 ## Getting Started
 ### Prerequisites
@@ -63,8 +63,8 @@ Contributions are welcome! If you find any issues or would like to add new featu
 5. Open a pull request
 
 ## Achnowledgements
-* Special thanks to Google for providing powerful language models.<br>
-* Thanks to the maintainers of PyPDF2 for their contributions to PDF processing.<br>
+* Special thanks to GPT4All for providing powerful language models.<br>
+* Thanks to the maintainers of PyPDFLoader for their contributions to PDF processing.<br>
 * Inspired by modern AI-driven tools for document analysis and interaction.
 
   
